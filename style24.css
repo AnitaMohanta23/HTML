@@ -1,0 +1,26 @@
+div{
+    padding: 15px;
+    margin: 15px;
+    width: 27%;
+    text-align: center;
+    display: inline-block;
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div1{
+    background-image: linear-gradient(90deg,teal,rgba(163,151,39.0877));
+    }
+    #div2{
+        background-image: linear-gradient(90deg,rgb(52, 187, 240),green);
+        }
+        #div3{
+            background-image: linear-gradient(90deg,rgb(174,126,174),rgb(58,77,58));
+}
+button{
+    background-image: linear-gradient(90deg,rgb(40,71,41),rgb(161,32,221));
+    color: beige;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+}

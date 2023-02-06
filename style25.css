@@ -1,0 +1,18 @@
+ul{
+    list-style-type: none;
+    background-image: linear-gradient(90deg,rgb(242, 192, 255),rgb(130, 238, 224));
+    text-align: center;
+    border-radius: 5px;
+}
+li{
+    padding: 10px;
+    display:inline-block;
+}
+li:hover{
+    background-color: darkorchid;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: floralwhite;
+}

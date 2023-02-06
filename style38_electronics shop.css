@@ -1,0 +1,372 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+.master{
+    width: 100%;
+    height: 100vh;
+    background-image:url("../HTML/images/comp.jfif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+.navigation{
+    width: 100%;
+    background-color: black;
+    
+}
+.nav-center{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.nav-center h1{
+    float: left;
+    padding-left: 10px;
+    color:white;
+    padding-top: 5px;
+}
+.orange{
+    color: rgb(255, 51, 0);
+
+}
+.nav-center ul{
+    float: right;
+}
+.navigation ul li{
+    float: left;
+    list-style: none;
+    font-weight: 500;
+    padding: 15px 40px 0px 0px;
+    padding-top: 12px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.icon{
+    float: right;
+    margin: 20px 10px 0 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.fa{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.banner{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30vh;
+    color: whitesmoke;
+}
+.banner h3{
+    color: rgb(126, 71, 255);
+    font-size: 1.4rem;
+}
+.banner h1{
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-top: 0;
+}
+.product{
+    max-width: 1200px;
+    padding: 100px 15px;
+    margin: 0 auto;
+}
+.product h1{
+    float: left;
+    font-weight: 500;
+    font-size: 2rem;
+    color: violet;
+}
+.product h4{
+    float: right;
+    color: red;
+    font-weight: 700;
+
+}
+.product hr{
+    clear: both;
+    height: 1px;
+    background-color: gainsboro;
+    border: none;
+}
+.product-list1{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.product-box{
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+    padding-bottom: 15px;
+    border: 1px solid rgb(219,214,214);
+}
+.pro-pic{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.product-box h2{
+    float: left;
+    padding-left: 5%;
+    font-weight: 500;
+    color:slateblue;
+    font-size: 1.3rem;
+}
+.product-box h3{
+    float: right;
+    padding-right: 5%;
+    color: mediumpurple;
+
+}
+.product-box p{
+    clear: both;
+    padding: 0 5%;
+    color: thistle;
+    font-size: 1rem;
+    line-height: 25px;
+}
+.five-star{
+    float: left;
+    font-size: 15px;
+    padding: 10px 2px;
+    color: greenyellow;
+}
+.five-star1{
+    margin-left: 5%;
+}
+.review{
+    float: right;
+    padding-right: 5%;
+    color: red;
+    margin-top: 10px;
+}
+.about{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.about h1{
+    font-weight: 100;
+    color: rgb(56,56,56);
+}
+.about hr{
+    height: 1px;
+    border: none;
+    background-color: rgb(214,214,218);
+}
+.about .left-box{
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+}
+.left-box h2{
+    color: rgb(90, 149, 205);
+    font-weight: 100;
+    margin: 0;
+
+}
+.left-box p{
+    line-height: 25px;
+    color: thistle;
+    padding: 10px 0 0 0;
+}
+.left-box a{
+     color: skyblue;
+}
+    .btn{
+        width: 120px;
+        height: 40px;
+        border: none;
+color: white;
+background-color: red;
+border-radius: 5px;
+font-size: 1rem;
+}
+.left-box .feature{
+    padding: 20px 0 0 0;
+}
+.left-box .feature li{
+    padding: 10px 0;
+    list-style-type: square;
+    margin-left: 20px;
+    color: rgb(56,56,56);
+}
+.about .right-box{
+    width: 50%;
+    float:right;
+
+}
+.right-box .about-pic{
+    width: 100%;
+}
+.purchase{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+.center{
+    width: 100%;
+    background-color: rgb(241,243,243);
+    margin: 50px 0px;
+}
+.left{
+    width: 70%;
+    float: left;
+    padding: 20px 0 20px 20px;
+}
+.left h2{
+    color: rgb(90, 149, 205);
+    
+}
+.bold{
+    font-weight: 600;
+
+}
+.left p{
+    color: rgb(122,120,120);
+
+}
+.right{
+    width: 30%;
+    float: right;
+    text-align: right;
+    padding: 50px 20px 20px 50px 0px;
+}
+.purchase button{
+    width: 140px;
+    height: 40px;
+    border: none;
+    color: silver;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.purchase hr{
+    height: 1px;
+    border: none;
+    background-color: gray;
+}
+.footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 15px 50px 15px;
+
+}
+.footer p{
+    font-size: 0.9rem;
+
+}
+@media only screen and (max-width:850px){
+.product-box h2{
+    padding-left: 2%;
+}
+.product-box h3{
+    padding-right: 2%;
+}
+.product-box p{
+    padding: 2%;
+}
+}
+@media only screen and (max-width:768px){
+    .navigation u1{
+        display: none;
+        position: absolute;
+        top: 50px;
+        padding-left: 20px;
+    }
+    .icon{
+        display: block;
+    }
+    a{
+        color: honeydew;
+    }
+    .banner h1{
+        font-size: 2.2rem;
+    }
+    .banner{
+        padding-top: 20%;
+    }
+    .product{
+        padding: 50px 15px;
+        margin: 0;
+    }
+    .product h1,.product h4{
+        text-align: center;
+        float: none;
+        
+    }
+    .product-box{
+        width: 100%;
+        margin: 25px 0;
+    }
+    .product-box p, .about h1{
+        text-align: center;
+    }
+    .about .left-box{
+        width: 100%;
+        padding: 0 10px;
+        margin-bottom: 50px;
+
+    }
+    .about .right-box{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .left, .right{
+    
+        width: 100%;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .right{
+        padding: 20px 10px;
+    }
+    
+}
+#div3{
+    background-color: rgb(42, 157, 165);
+    padding: 10px;
+}
+table{
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h5{
+    font-size: 40px;
+}
